@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random pass Generator</title>
+  <link rel="stylesheet" href="project-4.css">
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="sub-main">
+
+      <input id="text-show" type="text" style="display: block;height: 50px;">
+
+      <div class="row">
+        <h2>Password Length</h2>
+        <input id="pass-len" type="number" max="35" min="1" value="4" style="width:50px">
+      </div>
+      <div class="row">
+        <h2>Contains Uppercase</h2>
+        <input id="upper" type="checkbox" checked>
+      </div>
+      <div class="row">
+        <h2>Contains Lowercase</h2>
+        <input id="lower" type="checkbox">
+      </div>
+      <div class="row">
+        <h2>Contains Number</h2>
+        <input id="number" type="checkbox">
+      </div>
+      <div class="row">
+        <h2>Contains Symbol</h2>
+        <input id="symbol" type="checkbox">
+      </div>
+      <div class="row">
+        <button id="button" type="submit">Generate</button>
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <script src="project-4.js"></script>
+</body>
+
+</html>
